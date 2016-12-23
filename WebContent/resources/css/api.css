@@ -1,0 +1,78 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+	height: 80%;
+	width: 80%;
+	float: left;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#api1-header{
+	margin-left: 0 auto;
+	
+}
+#header-div{
+	text-align: center;
+}
+#map-container{
+	width: 1200px;
+	height: 700px;
+	margin: 0 auto;
+	margin-top: 0;
+	margin-left: 70px;
+	padding: 10px;
+	float: left;
+}
+#user-location-details{
+	width: 15%;
+	height: 35%;
+	float: left;
+	margin: 0 auto;
+	padding: 20px;
+}
+#search-form{
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 10%;
+	height: 50%;
+	float: left;
+	padding: 20px;
+}
+#srch-btn{
+	margin-left: 0;
+	margin-top: 20px;
+	position:relative;
+	top: -5px;
+}
+#search-radius{
+	width: 100px;
+}
+.field-label{
+	margin: 0;
+	width: 200px;;
+}
+.bold-font{
+	font-weight: bold;
+}
+#condition-div{
+	width: 300px;
+	height: 70px;
+}
+#condition-text{
+	float: left;
+	position: relative;
+	top: 20px;
+}
+#condition-icon{
+	float: left;
+}
+	
+	
+	
+	
