@@ -14,7 +14,7 @@ $(document).ready(function () {
     function loadCalendar() {
 	    //Start-Ajax//
 	    $.ajax({
-	    	   url: '/FreeKaBa/App/loadEvents',
+	    	   url: '/App/loadEvents',
 	    	   type: 'POST',
 	    	   data: 'json',
 	    	   //async: false,
