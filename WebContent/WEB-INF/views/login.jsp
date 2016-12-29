@@ -44,7 +44,7 @@
         <div id="login-label">
                 <h1>Login</h1>
         </div>
-        <form method="post" action="/FreeKaBa/App/authenticate">
+        <form method="post" action="/App/authenticate">
 	        <div id="login-left-box">
 	            <div class="login-box">
 		            <c:if test="${not empty error}">
