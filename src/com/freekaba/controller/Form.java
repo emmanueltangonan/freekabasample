@@ -63,7 +63,7 @@ public class Form {
 		User userResult = userDao.getUser(user.getUsername(), user.getPassword());
 		
 		if(userResult != null) {
-			return "redirect: home";
+			return "redirect:home";
 		} else {
 			model.addAttribute("error", "Invalid username or password!");
 			return "login";
